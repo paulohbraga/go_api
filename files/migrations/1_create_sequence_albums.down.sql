@@ -1,0 +1,1 @@
+DROP SEQUENCE IF EXISTS "albums_Id_seq";

@@ -1,0 +1,1 @@
+CREATE SEQUENCE IF NOT EXISTS "albums_Id_seq"
