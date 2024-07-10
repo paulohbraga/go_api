@@ -21,6 +21,7 @@ type Album struct {
 type App struct {
 	DB     *sql.DB
 	Routes *gin.Engine
+	conn   string
 }
 
 func (a *App) getAlbums(c *gin.Context) {

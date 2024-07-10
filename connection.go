@@ -16,5 +16,6 @@ func (a *App) CreateConnection(database string) {
 
 		log.Fatal(err)
 	}
+	a.conn = url
 	a.DB = db
 }

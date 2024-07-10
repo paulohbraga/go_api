@@ -1,4 +1,4 @@
-ALTER USER postgres PASSWORD "postgres";
+ALTER USER postgres PASSWORD postgres;
 
-GRANT ALL PRIVILEGES ON DATABASE public TO "postgres";
+GRANT ALL PRIVILEGES ON DATABASE public TO postgres;
 CREATE DATABASE albums;
