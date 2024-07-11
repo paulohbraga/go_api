@@ -1,4 +1,4 @@
-ALTER USER postgres PASSWORD postgres;
+ALTER USER postgres WITH PASSWORD 'postgres';
 
 GRANT ALL PRIVILEGES ON DATABASE public TO postgres;
 CREATE DATABASE albums;
